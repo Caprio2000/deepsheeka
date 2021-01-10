@@ -1,1 +1,4 @@
 [0109/235719.427:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0110/121555.051:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0111/001033.957:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0111/005941.912:ERROR:filesystem_win.cc(129)] GetFileAttributes c:\Users\Lenovo\AppData\Roaming\Code\User\workspaceStorage\c7e6d89b10464702e5b5d934c8ac80b7\ms-vscode.js-debug\.profile\Crashpad\attachments\670333b9-b27d-4d21-9aac-53f9d9c99635: The system cannot find the path specified. (0x3)
