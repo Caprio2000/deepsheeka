@@ -9,6 +9,46 @@
   
         @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
     </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#events">events</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
 
 </head>
 
@@ -16,7 +56,19 @@
 <body>
   <!heading>
     <div class="myDiv">
-        <h1 align="center" style="font-family:verdana" style="font: size 50;px">Deepshika school of Music</h1>
+      <style>
+        h1 {
+          text-shadow: 2px 2px #FF0000;
+          font-size: 60px;
+        }
+        </style>
+        <h1 align="center" style="font-family:verdana" style="font: size 50;px" style>Deepshika school of Music</h1>
+        <style>h2{
+           text-decoration: underline;
+           font-size: 30px;
+        }
+           </style>
+       
 
         <h2 align="center" style="color:blue" style="font: size 50px" ;>Music for Everyone</h2>
       </div>
@@ -30,7 +82,8 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1400px;
+  width: 1400px;
+  height: auto;
   position: relative;
   margin: auto;
 }
@@ -62,17 +115,6 @@ img {vertical-align: middle;}
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -101,9 +143,9 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 2.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2.5s;
 }
 
 @-webkit-keyframes fade {
@@ -127,27 +169,44 @@ img {vertical-align: middle;}
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 5</div>
-  <img src="Deepshika .jpg" style="width:100%">
+  <div class="numbertext">1 / 9</div>
+  <img src="picture\unnamed.jpg" style="width:100%">
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 5</div>
-  <img src="images.jpg" style="width:100%">
+  <div class="numbertext">2 / 9</div>
+  <img src="picture\deepimage1.jpg" style="width:100%">
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">3 / 5</div>
-  <img src="music.jpg" style="width:100%">
+  <div class="numbertext">3 / 9</div>
+  <img src="picture\deepimage2.jpg" style="width:100%">
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">4 / 5</div>
-  <img src="download.jpg" style="width:100%">
+  <div class="numbertext">4 / 9</div>
+  <img src="picture\deepimage3.jpg" style="width:100%">
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">5 / 5</div>
-  <img src="images (1).jpg" style="width:100%">
+  <div class="numbertext">5 / 9</div>
+  <img src="picture\deepimage4.jpg" style="width:100%">
 </div>
+<div class="mySlides fade">
+  <div class="numbertext">6 / 9</div>
+  <img src="picture\deepimage5.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">7 / 9</div>
+  <img src="picture\deepimage6.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">8 / 9</div>
+  <img src="picture\deepimage7.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">9 / 9</div>
+  <img src="picture\deepimage8.jpg" style="width:100%">
+</div>
+
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -161,6 +220,10 @@ img {vertical-align: middle;}
   <span class="dot" onclick="currentSlide(3)"></span>
   <span class="dot" onclick="currentSlide(4)"></span>
   <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span> 
+  <span class="dot" onclick="currentSlide(8)"></span> 
+  <span class="dot" onclick="currentSlide(9)"></span> 
 </div>
 
 <script>
